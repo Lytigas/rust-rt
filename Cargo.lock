@@ -1,0 +1,14 @@
+[[package]]
+name = "libc"
+version = "0.2.43"
+source = "git+https://github.com/Lytigas/libc#a9590b55905c5f07c415c23e85a79d2259354482"
+
+[[package]]
+name = "rust-preempt-rt"
+version = "0.1.0"
+dependencies = [
+ "libc 0.2.43 (git+https://github.com/Lytigas/libc)",
+]
+
+[metadata]
+"checksum libc 0.2.43 (git+https://github.com/Lytigas/libc)" = "<none>"
